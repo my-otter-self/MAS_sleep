@@ -1,0 +1,15 @@
+init 5 python:
+    addEvent(Event(persistent.event_database,eventlabel="hv_dreams",category=['media'],prompt="Dreams",random=True))
+
+label hv_dreams:
+    m 1rsc "Hm...[player]...what it's like to dream?"
+    m 1ekb "I know it might seen silly, but ever since I came to my epihany, I haven't been able to shake off the curiosity."
+    m 1rusdrb "You know I actually found myself looking into it, hehe~"
+    m eua "It seems that there's a lot of theories that suggest why you dream..."
+    m eua "One theory even suggested that they showed your repressed and unconscious thoughts."
+    m eua "Although from what I've read about the dreams of others, I can honestly say I'm a bit inclined not to believe that theory..."
+    m eua "Although it is interesting to see how people take their dreams and try to find a deeper meaning."
+    m eua "I think the most interesting and probable one was if you dream of running away your trying to avoid something."
+    m eua "Though logically it could also be that one might have watched or read something of the horror genre and their experiencing the aftermath, hehe~"
+    m eua "Ah don't worry [mas_get_player_nickname()], I'll protect you from whoevers chasing you! I'll always protect you~"
+return
