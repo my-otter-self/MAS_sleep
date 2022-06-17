@@ -1,0 +1,13 @@
+init 5 python:
+    addEvent(Event(persistent.event_database,eventlabel="hv_aromatherapy",category=['media'],prompt="Aromatherapy",random=True))
+
+label hv_aromatherapy:
+    m 1eua "Hey [player], remember when I talked about stress?"
+    m 1eud "Well I was researching it a little more, and I came across aromatherapy."
+    m 1esd "I personally find it fasinating, how herbs can mix together to have an affect."
+    m 1efc "It seems that the most common use for aromatherapy is stress-relief and to help with sleeping."
+    m 1efd "There are also multitude of different products to engage in aromatherapy ranging from candles to incenses!"
+    m 7eto "However, [player], please be careful if your going to use the incense products."
+    m 1dsebdd "Not to say that you shouldn't light them at all, just if you do make sure it's near an area with a window and the area is well ventilated!"
+    m 2ekd "Remember [player], I love you so much and just want to make sure your safe and healthy!"
+return "love"
