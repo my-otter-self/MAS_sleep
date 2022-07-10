@@ -1,0 +1,27 @@
+{
+    "__author": "Zero",
+    "version": 3,
+    "type": 0,
+    "name": "acs_zero_blue_blanket",
+    "img_sit": "zero_blue_blanket",
+    "pose_map": {
+        "default": "0",
+        "l_default": "0"
+    },
+
+    "rec_layer": 2,
+    "priority": 13,
+    "acs_type": "blanket_selector",
+    "stay_on_start": true,
+    "select_info": {
+        "display_name": "Blanket Test 2",
+        "thumb": "blue_blanket",
+        "group": "blankets",
+        "select_dlg": [
+            "Blanket"
+        ]
+    },
+    "dlg_desc": "Blue Blanket",
+    "dlg_plural": false,
+    "giftname": "blueblanket"
+}

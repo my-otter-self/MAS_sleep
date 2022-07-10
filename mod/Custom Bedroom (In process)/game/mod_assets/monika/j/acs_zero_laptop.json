@@ -1,0 +1,27 @@
+{
+    "__author": "Zero",
+    "version": 3,
+    "type": 0,
+    "name": "acs_zero_laptop",
+    "img_sit": "zero_laptop",
+    "pose_map": {
+        "default": "0",
+        "l_default": "0"
+    },
+
+    "rec_layer": 2,
+    "priority": 13,
+    "acs_type": "objets_selector",
+    "stay_on_start": true,
+    "select_info": {
+        "display_name": "Test 2",
+        "thumb": "laptop_thumb",
+        "group": "objets",
+        "select_dlg": [
+            "Government laptop."
+        ]
+    },
+    "dlg_desc": "Laptop",
+    "dlg_plural": false,
+    "giftname": "laptopsubmod"
+}
